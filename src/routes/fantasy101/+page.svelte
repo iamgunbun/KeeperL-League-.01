@@ -49,7 +49,7 @@
             </div>
             <div class="video-wrapper">
                 <p>FAAB Waiver explained (Please Watch!!)</p>
-                <VideoPlayer videoId="jMBaRlGCat8" />
+                <VideoPlayer videoId="9DbceKcVl24" />
             </div>
             <div class="video-wrapper">
                 <p>Hero RB explained</p>
