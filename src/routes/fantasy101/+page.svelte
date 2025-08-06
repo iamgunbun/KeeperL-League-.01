@@ -48,8 +48,8 @@
                 <VideoPlayer videoId="UApjbalTgTw" />
             </div>
             <div class="video-wrapper">
-                <p>Draft Strategies</p>
-                <VideoPlayer videoId="g2ujCbT5TYY" />
+                <p>FAAB Waiver explained (Please Watch!!)</p>
+                <VideoPlayer videoId="jMBaRlGCat8" />
             </div>
             <div class="video-wrapper">
                 <p>Hero RB explained</p>
@@ -68,8 +68,8 @@
                 <VideoPlayer videoId="jMBaRlGCat8" />
             </div>
             <div class="video-wrapper">
-                <p>FAAB Waiver explained (Please Watch!!)</p>
-                <VideoPlayer videoId="9DbceKcVl24" />
+                <p>Draft Strats</p>
+                <VideoPlayer videoId="g2ujCbT5TYY" />
             </div>
         </div>
     </div>
