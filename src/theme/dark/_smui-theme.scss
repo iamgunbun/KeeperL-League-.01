@@ -4,8 +4,8 @@
 
 // Svelte Colors!
 @use '@material/theme/index' as theme with (
-  $primary: #0082c3,
-  $secondary: #00316b,
+  $primary: #FFD700,
+  $secondary: #B8860B,
   $surface: #000000,
   $background: #000000,
   $error: color-palette.$red-900,
@@ -45,7 +45,7 @@
   --bbb: #444;
   --aaa: #555;
   --g999: #666;
-  --g444: #bbb;
+  --g444: #B8860B;
   --g555: #aaa;
   --g333: #ccc;
   --g111: #eee;
@@ -65,55 +65,55 @@
   --fadeTwo: rgba(0, 0, 0, 0.7) 50%;
   --fadeThree: rgba(0, 0, 0, 0.9) 90%;
   --fadeFour: rgba(0, 0, 0, 1) 100%;
-  --blueOne: #0082c3;
-  --blueTwo: #003c86;
+  --blueOne: #FFD700;
+  --blueTwo: #B8860B;
   --r1: #1c1c1d;
   --r2: #1f1d1d;
   --r3: #181a18;
-  --headerPrimary: #2a2e31;
+  --headerPrimary: #1a1a1a;
   --borderOverride: rgba(255,255,255,.3);
-  --rivalryBack: #333;
+  --rivalryBack: #1a1a1a;
 
   // Chart bar colors
-  --barChartOne: #446a88;
-  --barChartTwo: #32788f;
-  --barChartThree: #1d808d;
-  --barChartFour: #198886;
-  --barChartFive: #2b8673;
-  --barChartSix: #448864;
+  --barChartOne: #FFD700;
+  --barChartTwo: #FFD700;
+  --barChartThree: #FFD700;
+  --barChartFour: #FFD700;
+  --barChartFive: #FFD700;
+  --barChartSix: #FFD700;
 
   // Comparisson bar colors
-  --compBarOne: #446a88;
-  --compBarTwo: #448864;
-  --compBarOneText: #7fc4f5;
-  --compBarTwoText: #79edad;
+  --compBarOne: #FFD700;
+  --compBarTwo: #B8860B;
+  --compBarOneText: #000000;
+  --compBarTwoText: #FFFFFF;
   
   // Positions
-  --QBfade: #ff8fb2;
-  --WRfade: #afd4ff;
-  --RBfade: #6ccac1;
-  --TEfade: #ffd6aa;
-  --Kfade: #deb4ff;
-  --DEfadeFfade: #fffbbc;
-  --PICKSfade: #73b647;
-  --CBfade: #ffcc7a;
-  --SSfade: #b7a1db;
-  --FSfade: #ebe7b3;
-  --DEfade: #b1d0e9;
-  --DLfade: #c392d3;
-  --LBfade: #98c097;
+  --QBfade: #B8860B;
+  --WRfade: #B8860B;
+  --RBfade: #B8860B;
+  --TEfade: #B8860B;
+  --Kfade: #B8860B;
+  --DEfadeFfade: #B8860B;
+  --PICKSfade: #B8860B;
+  --CBfade: #B8860B;
+  --SSfade: #B8860B;
+  --FSfade: #B8860B;
+  --DEfade: #B8860B;
+  --DLfade: #B8860B;
+  --LBfade: #B8860B;
 
-	--QB: #ff2a6d;
-	--WR: #58a7ff;
-	--RB: #00ceb8;
-	--TE: #ffae58;
-	--K: #bd66ff;
-	--Budget: #7947d4;
-	--DEF: #fff67a;
-	--DL: #ff795a;
-	--LB: #6d7df5;
-	--DB: #ff7cb6;
-	--BN: #b6d0eb;
+	--QB: #FFD700;
+	--WR: #FFD700;
+	--RB: #FFD700;
+	--TE: #FFD700;
+	--K: #FFD700;
+	--Budget: #B8860B;
+	--DEF: #FFD700;
+	--DL: #B8860B;
+	--LB: #B8860B;
+	--DB: #B8860B;
+	--BN: #B8860B;
 }
 
 html,
@@ -123,9 +123,9 @@ body {
   background-color: theme.$surface;
   color: theme.$on-surface;
   min-height: 100vh;
-  background: #222;
-  background: linear-gradient(to bottom right, #111,#222 );
-  background: -webkit-linear-gradient(to bottom right, #111,#222 );
+  background: #000;
+  background: linear-gradient(to bottom right, #000000,#0d0d0d );
+  background: -webkit-linear-gradient(to bottom right, #000000,#0d0d0d );
 }
  
 //
